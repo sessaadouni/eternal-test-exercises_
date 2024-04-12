@@ -32,6 +32,15 @@ Ensuite, pour ouvrir dans ton logiciel de développement (aka IDE):
 code /iutv/Mes_Montages/${LOGNAME}
 ```
 
+Dans VS Code, pense à préciser que ton interpréteur python est le virtualenv
+qu'on vient de créer (Commandes dans Code -> "Python: Select Interpreter")
+
+Si tu préfères utiliser le terminal directement avec Emacs ou (n)vim ou un autre éditeur de texte, pense à charger le virtualenv dans ton shell:
+
+```bash
+. /iut/Mes_Montages/${LOGNAME}/eternal-test-exercises/.venv/bin/activate
+```
+
 ## Recommendations
 
 Utiliser VS Code pour développer avec la complétion de syntaxe et des facilités de test.
