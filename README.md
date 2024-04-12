@@ -31,3 +31,11 @@ Rappel:
 - `git add <répertoire>` pour préparer le commit
 - `git commit` pour effectuer le commit
 - `git push` pour envoyer le commit vers le serveur central.
+
+# Un exemple
+
+Dans le dossier exemple-0 tu trouves un exercice résolu:
+
+- l'exercice a été créé dans un commit à part
+- ensuite, j'ai proposé une solution:
+    - écrire une fonction reponse(question=None) qui va avoir le comportement décrit par le test
