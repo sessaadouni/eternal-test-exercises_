@@ -6,6 +6,14 @@ Faisables dans n'importe quel ordre. Chaque exercice doit être suivi d'un commi
 
 Bien entendu, il faut faire un fork du projet dans ton propre GitHub et envoyer dedans.
 
+
+A la fin on attend pour chacun des exercices réalisés:
+- le fichier test-report.txt
+- le fichier coverage.txt
+- le fichier test_xyz.py
+- le fichier xyz.py
+
+
 ## Recommendations
 
 Utiliser VS Code pour développer avec la complétion de syntaxe et des facilités de test.
