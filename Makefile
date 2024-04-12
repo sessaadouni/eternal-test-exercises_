@@ -1,4 +1,4 @@
-VENV_PATH = ./virtualenv-p3
+VENV_PATH = ./.venv
 VENV_TOKEN = $(VENV_PATH)/.created
 
 .PHONY: venv

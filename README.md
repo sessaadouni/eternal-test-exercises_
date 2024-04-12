@@ -13,6 +13,24 @@ A la fin on attend pour chacun des exercices réalisés:
 - le fichier test_xyz.py
 - le fichier xyz.py
 
+## Comment cloner ce répertoire de façon persistente (sur ton compte de l'IUT) et initialiser l'environnement
+
+Commencer par forker ce dépôt dans ton GitHub personnel.
+
+Copier-coller cela dans un terminal:
+
+```bash
+cd /iutv/Mes_Montages/${LOGNAME}
+git clone https://github.com/TON-COMPTE/eternal-test-exercises.git eternal-test-exercises
+cd eternal-test-exercises
+make venv
+```
+
+Ensuite, pour ouvrir dans ton logiciel de développement (aka IDE):
+
+```bash
+code /iutv/Mes_Montages/${LOGNAME}
+```
 
 ## Recommendations
 
