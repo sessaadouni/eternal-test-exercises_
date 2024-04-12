@@ -1,0 +1,42 @@
+<html>
+  <head>
+    <title>La page de tests</title>
+    <style type="text/css">
+    body {
+      color: #00ff33;
+      background: #990000;
+      font-size: 16pt;
+
+    }
+    #counter {
+      font-size: 2rem;
+    }
+    #historique {
+       background: #101010;
+       color: #EFEFEF;
+       font-family: fixed;
+       width: 100%;
+    }
+    </style>
+  </head>
+  <body>
+    <h1>Mon super compteur</h1>
+    <button onclick="increaseCounter()">Click me!</button>
+    <button onclick="resetCounter()">Reset!</button>
+    <div id="counter">0</div>
+    <div id="historique">{}</div>
+    <script type="text/javascript">
+    counterObj = document.getElementById('counter')
+    historiqueObj = document.getElementById('historique')
+    // incrémente le compteur
+    const increaseCounter = () => {
+      counterObj.innerText = parseInt(counterObj.innerText) + 1;
+    }
+    // sauvegarde dans l'historique la valeur du compteur et le remet à 0
+    const resetCounter = () => {
+      counterObj.innerText = "0";
+      historiqueObj.innerHTML += " - " + counterObj.innerText
+    }
+    </script>
+  </body>
+</html>
