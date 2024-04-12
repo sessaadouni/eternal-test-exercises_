@@ -1,0 +1,6 @@
+*.py[oc]
+__pycache__
+.venv
+.metals
+.pytest_cache
+.coverage

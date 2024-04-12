@@ -1,0 +1,6 @@
+.PHONY = coverage test
+coverage:
+	. ../.venv/bin/activate; coverage run -m pytest .;coverage report -m | tee coverage.txt
+
+test:
+	. ../.venv/bin/activate; pytest . | tee test-report.txt
