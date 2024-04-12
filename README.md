@@ -39,3 +39,14 @@ Dans le dossier exemple-0 tu trouves un exercice résolu:
 - l'exercice a été créé dans un commit à part
 - ensuite, j'ai proposé une solution:
     - écrire une fonction reponse(question=None) qui va avoir le comportement décrit par le test
+- et je l'ai commit: c'est le commit "eb41df06" que tu peux voir avec la commande `git log`
+
+Pour produire ce commit et le publier, j'ai fait les commandes suivantes:
+
+```bash
+cd exemple-0
+make test coverage
+git add .
+git commit -m "exercice(exemple-0): create function reponse() to provide answers"
+git push
+```
