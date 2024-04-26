@@ -1,4 +1,4 @@
-# Exercice 7: {DESCRIPTION}
+# Exercice 7: toki pona, la langue du bien
 
 ## Description
 

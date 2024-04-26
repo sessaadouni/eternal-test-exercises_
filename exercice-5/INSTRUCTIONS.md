@@ -1,4 +1,4 @@
-# Exercice 5: {DESCRIPTION}
+# Exercice 5: tour de chauffe de maths
 
 ## Description
 

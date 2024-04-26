@@ -1,4 +1,4 @@
-# Exercice 2: {DESCRIPTION}
+# Exercice 2: la tortue
 
 ## Description
 

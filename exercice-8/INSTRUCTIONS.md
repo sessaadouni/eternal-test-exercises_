@@ -1,4 +1,4 @@
-# Exercice 8: {DESCRIPTION}
+# Exercice 8: toki pona, la langue du bien
 
 ## Description
 

@@ -1,4 +1,4 @@
-# Exercice 6: {DESCRIPTION}
+# Exercice 6: grandeur
 
 ## Description
 
