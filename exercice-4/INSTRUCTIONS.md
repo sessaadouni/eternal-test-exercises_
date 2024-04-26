@@ -1,4 +1,4 @@
-# Exercice 4: {DESCRIPTION}
+# Exercice 4: Conversion de nombres
 
 ## Description
 
