@@ -24,6 +24,8 @@ def test_move_tortue():
 
   La tortue est géniale et peut donc se téléporter avec la méthode teleport.
   """
+  from tortue import Tortue
+  
   t = Tortue(x=0, y=0)
   assert t.x == 0 and t.y == 0
   t.look_right()
